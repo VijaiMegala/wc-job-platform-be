@@ -5,7 +5,7 @@ import {
 } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import * as bcrypt from 'bcrypt';
+import * as bcrypt from 'bcryptjs';
 import { User } from '../entities/user.entity';
 import { CreateUserWithOrgDto } from '../organization/dto/create-user-with-org.dto';
 import { CreateCandidateDto } from './dto/create-candidate.dto';
